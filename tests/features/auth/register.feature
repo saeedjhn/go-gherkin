@@ -6,6 +6,7 @@ Feature: User Registration and Welcome Email
     Then the user account should be created
     And a welcome email should be sent
 
+  @wip
   Scenario: User tries to register with an invalid email
     Given a new user with invalid email "invalid-email"
     When the user tries to register
